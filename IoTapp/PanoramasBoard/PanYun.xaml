@@ -21,7 +21,7 @@
             <phone:PanoramaItem Header="Características" Foreground="Black">
 
 
-                <Image Source="yunlinux.jpg" />
+                <Image Source="/Images/yunlinux.jpg" />
             </phone:PanoramaItem>
             <phone:PanoramaItem Header="PinOut">
 

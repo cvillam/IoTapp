@@ -93,6 +93,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento.xaml.cs">
+      <DependentUpon>Conocimiento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento2.xaml.cs">
+      <DependentUpon>Conocimiento2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ListaBoards.xaml.cs">
       <DependentUpon>ListaBoards.xaml</DependentUpon>
     </Compile>
@@ -102,10 +108,10 @@
     </Compile>
     <Compile Include="Models\OpcionBoard.cs" />
     <Compile Include="Models\OpcionesBoards.cs" />
-    <Compile Include="PanUNO.xaml.cs">
+    <Compile Include="PanoramasBoard\PanUNO.xaml.cs">
       <DependentUpon>PanUNO.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PanYun.xaml.cs">
+    <Compile Include="PanoramasBoard\PanYun.xaml.cs">
       <DependentUpon>PanYun.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,6 +126,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="PreguntasConocimiento\Conocimiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ListaBoards.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -128,11 +142,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PanUNO.xaml">
+    <Page Include="PanoramasBoard\PanUNO.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PanYun.xaml">
+    <Page Include="PanoramasBoard\PanYun.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -163,7 +177,7 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="yunlinux.jpg" />
+    <Content Include="Images\yunlinux.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">

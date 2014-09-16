@@ -25,10 +25,10 @@ namespace IoTapp
             switch(opcb.Titulo){
 
                 case "Yún":
-                    NavigationService.Navigate(new Uri("/PanYun.xaml", UriKind.Relative));
+                    NavigationService.Navigate(new Uri("/PanoramasBoard/PanYun.xaml", UriKind.Relative));
                     break;
                 case "UNO":
-                    NavigationService.Navigate(new Uri("/PanUNO.xaml", UriKind.Relative));
+                    NavigationService.Navigate(new Uri("/PanoramasBoard/PanUNO.xaml", UriKind.Relative));
                     break;
 
 
