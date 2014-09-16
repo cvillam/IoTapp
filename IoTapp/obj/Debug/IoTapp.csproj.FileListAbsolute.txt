@@ -17,3 +17,5 @@ c:\users\cesarpc\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\I
 c:\users\cesarpc\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\IoTapp.pdb
 c:\users\cesarpc\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\XapCacheFile.xml
 c:\users\cesarpc\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\ListaBoards.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanUNO.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanYun.g.cs
