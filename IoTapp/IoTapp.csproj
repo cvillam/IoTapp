@@ -178,6 +178,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\yunlinux.jpg" />
+    <Content Include="PanoramasBoard\yunpin.jpg" />
+    <Content Include="PanoramasBoard\yunpin.png" />
+    <Content Include="PanoramasBoard\yunpin2.jpg" />
+    <Content Include="PanoramasBoard\yunpin2.png" />
+    <Content Include="PanoramasBoard\yunpin3.jpg" />
+    <Content Include="PanoramasBoard\yunpin3.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">

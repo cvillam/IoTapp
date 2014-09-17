@@ -9,7 +9,7 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-    SupportedOrientations="Portrait" Orientation="Portrait"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
 
@@ -19,17 +19,69 @@
         <phone:Panorama Title="Yún-Arduino" Foreground="Black" >
 
             <phone:PanoramaItem Header="Características" Foreground="Black">
+                <StackPanel>
+                    <TextBlock FontSize="35"  Text="Microcontrolador " Foreground="Red" />
+                    <TextBlock Text="ATmega 32u4 Reloj 16 MHz 5 V" Margin="0 0 0 15"/>
+                    <TextBlock Text="Conectividad a Internet" Foreground="Brown" />
+                    <TextBlock Text="Ethernet y WiFi incluidos de serie" Margin="0 0 0 15" />
+                    <TextBlock Text="Pines digitales de entrada y salida" Foreground="Brown" />
+                    <TextBlock Text="20 pines con capacidad de 40 mA" Margin="0 0 0 15" />
+                    <TextBlock Text="Canales analógicos" Foreground="Brown" />
+                    <TextBlock Text="12 canales" Margin="0 0 0 15" />
+                    <TextBlock Text="Memoria EEPROM " Foreground="Brown" />
+                    <TextBlock Text="1 KB"  Margin="0 0 0 15"/>
+                    <TextBlock Text="Memoria SRAM y Flash" Foreground="Brown" />
+                    <TextBlock Text="2.5 KB (SRAM) y 32 KB (Flash)"  Margin="0 0 0 15"/>
+                    
+                    
+                </StackPanel>
+               
 
-
-                <Image Source="/Images/yunlinux.jpg" />
+            </phone:PanoramaItem>
+            <phone:PanoramaItem>
+                
+                <StackPanel>
+                    <TextBlock FontSize="35"  Text="Procesador Linux " Foreground="Red" />
+                    <TextBlock Text="Atheros AR9331 400MHz 3.3V" Margin="0 0 0 15" />
+                    <TextBlock Text="Memoria RAM " Foreground="Brown" />
+                    <TextBlock Text="64 MB DDR2" Margin="0 0 0 15" />
+                    <TextBlock Text="Memoria flash - Linux " Foreground="Brown" />
+                    <TextBlock Text="16 MB" Margin="0 0 0 15" />
+                    <TextBlock Text="Soporte para USB y SD " Foreground="Brown" />
+                    <TextBlock Text="MicroSD y USB 2.0" />
+                    
+                </StackPanel>
             </phone:PanoramaItem>
             <phone:PanoramaItem Header="PinOut">
+                <StackPanel>
+                    <Image Source="/PanoramasBoard/yunpin.jpg" Margin="0 0 0 10" />
 
+                   
+                   
+                    <TextBlock FontSize="35" Text="Pines" Foreground="Brown" />
+                    <TextBlock Text="Canales analógicos: A0-A11 " />
+                </StackPanel>
+              
+              
+            </phone:PanoramaItem>
+            <phone:PanoramaItem>
+                <Image Source="/PanoramasBoard/yunpin3.jpg" Margin="0 0 0 10" />
 
             </phone:PanoramaItem>
-            <phone:PanoramaItem Header="Dispositivos">
+            <phone:PanoramaItem>
+                <Image Source="/PanoramasBoard/yunpin2.jpg"  Margin="0 0 0 10"/>
 
+            </phone:PanoramaItem>
+            <phone:PanoramaItem Header="Información">
+                <StackPanel>
+                    <TextBlock Foreground="Brown" Text="Advertencias" FontSize="35"/>
+                    <TextBlock Margin="0 0 0 20"  Text="No sobrepasar los 500 mA en el puerto USB." />
+                    <TextBlock Margin="0 0 0 20"  Text="Si se desea extraer más de 40 mA en los pines digitales se debe usar mecanismos de amplificación como Operacionales." TextWrapping="Wrap" />
+                    <TextBlock Margin="0 0 0 20"  Text="Nunca sobrepasar los 50 mA de corriente en una entrada digital o analógica" TextWrapping="Wrap" />
+                    <TextBlock  Margin="0 0 0 20" TextWrapping="Wrap" Text="Para instalar aplicaciones en Linux se debe ingresar necesariamente una memoria MicroSD externa, ya que la memoria interna es ocupada al 100% con el sistema operativo." />
+                </StackPanel>
 
+                    
             </phone:PanoramaItem>
 
 

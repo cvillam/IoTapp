@@ -39,9 +39,7 @@ namespace IoTapp.Models
 
                     ob = new OpcionBoard() { Titulo = "Mega", Descripcion = "Arduino" };
                     list.Add(ob);
-                    ob = new OpcionBoard() { Titulo = "leonardo", Descripcion = "Arduino" };
-                    list.Add(ob);
-
+       
                     ob = new OpcionBoard() { Titulo = "B Model", Descripcion = "Raspberry - Preparado para IoT" };
                     list.Add(ob);
 
