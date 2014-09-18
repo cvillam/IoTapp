@@ -1,0 +1,111 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IoTapp.PanoramasTemas.PanEst"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Foreground="Red" Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Foreground="DarkBlue"  Text="Estructura" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <phone:Panorama>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Básico" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="La estructura básica de un código para Arduino contiene 2 grandes funciones, Setup y Loop. La primera sirve para hacer configuraciones iniciales, de forma que el codigo presente en esta sección se ejecuta una sola vez, al inicio.
+                                   Mientras tanto, la función Loop es repetititva, cuando se ejecute lo contenido en ella, se volverá a ejecutar, indefinidamente. Los contenidos van entre las llave
+                                   " Margin="0 0 0 15"/>
+                        <Image Source="/Images/loop.jpg"  Height="150"/>
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+
+                
+
+                <phone:PanoramaItem>
+
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Control" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Las estructuras de control más importantes son: if-else (evaluan el cumplimiento de una condición sobre una o varias variables), for (permiten repetir ciertas acciones un número determinado de veces), switch case (permite especificar el código a ejecutar para varios casos determiandos por el valor de una variable), while (permite ejecutar un codigo repetitivamente hasta que deje de cumplirse la condición impuesta), do-while(similar al anterior, pero en este caso se garantiza su ejecución al menos una vez). " Margin="0 0 0 15"/>
+                       
+
+                    </StackPanel>
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Operadores matemáticos" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Entre dos variables de tipo numérico se pueden realizar operaciones matemáticas básicas, suma (+), resta (-), división (/), multiplicación (*), o módulo (%), que extrae el reciduo de una división." Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Crimson" Text="Comparadores" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Para poder establecer estructuras de control es necesario evaluar el cumplimiento de algunas condiciones, de esta forma, los comparadores son, mayor o igual (>=), menor o igual (&lt;=), igual (==), mayor que (>), menor que (&lt;) y diferente de (!=)." Margin="0 0 0 15"/>
+
+
+                    </StackPanel>
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Operadores Booleanos" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Permiten evaluar el cumplimiento de una o varias condiciones dentro de un grupo de variables. AND (doble Ampersand) permite evaluar si todas las condiciones se cumplen de forma simultanea, OR (||) permite evaluar si al menos una de las condiciones se cumple, y NOT (!) permte evaluar si una condición particular no se cumple." Margin="0 0 0 15"/>
+                       
+
+                    </StackPanel>
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+
+                    <StackPanel>
+                        <TextBlock Text="if - else" Foreground="Black" />
+                        <Image Source="/Images/ifelse.jpg" Height="150"/>
+                        <TextBlock Text="while" Foreground="Black" />
+                        <Image Source="/Images/while.jpg" Height="100"/>
+                        <TextBlock Text="do - while" Foreground="Black" />
+                        <Image Source="/Images/dow.jpg" Height="100"/>
+
+                    </StackPanel>
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+
+                    <StackPanel>
+                        <TextBlock Text="for" Foreground="Black" />
+                        <Image Source="/Images/for1.jpg" Height="150"/>
+                     
+                        <Image Source="/Images/for2.jpg" Height="175"/>
+                        <TextBlock Text="switch" Foreground="Black" />
+                        <Image Source="/Images/swi.jpg" Height="175"/>
+
+                    </StackPanel>
+                </phone:PanoramaItem>
+
+            </phone:Panorama>
+
+
+
+
+
+
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

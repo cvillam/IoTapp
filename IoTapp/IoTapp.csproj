@@ -96,6 +96,11 @@
     <Compile Include="Iot.xaml.cs">
       <DependentUpon>Iot.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListaTemas.xaml.cs">
+      <DependentUpon>ListaTemas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\OpcionesTemas.cs" />
+    <Compile Include="Models\OpcionTema.cs" />
     <Compile Include="PanoramasBoard\PanDue.xaml.cs">
       <DependentUpon>PanDue.xaml</DependentUpon>
     </Compile>
@@ -113,6 +118,21 @@
     </Compile>
     <Compile Include="PanoramasBoard\PanTre.xaml.cs">
       <DependentUpon>PanTre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasTemas\PanEst.xaml.cs">
+      <DependentUpon>PanEst.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasTemas\PanFun.xaml.cs">
+      <DependentUpon>PanFun.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasTemas\PanLib.xaml.cs">
+      <DependentUpon>PanLib.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasTemas\PanRaspbian.xaml.cs">
+      <DependentUpon>PanRaspbian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasTemas\PanVar.xaml.cs">
+      <DependentUpon>PanVar.xaml</DependentUpon>
     </Compile>
     <Compile Include="PreguntasConocimiento\Conocimiento.xaml.cs">
       <DependentUpon>Conocimiento.xaml</DependentUpon>
@@ -151,6 +171,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ListaTemas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PanoramasBoard\PanDue.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -172,6 +196,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PanoramasBoard\PanTre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasTemas\PanEst.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasTemas\PanFun.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasTemas\PanLib.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasTemas\PanRaspbian.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasTemas\PanVar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -226,22 +270,29 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\dow.jpg" />
     <Content Include="Images\due1.jpg" />
     <Content Include="Images\due2.png" />
     <Content Include="Images\eth1.jpg" />
     <Content Include="Images\eth2.jpg" />
+    <Content Include="Images\for1.jpg" />
+    <Content Include="Images\for2.jpg" />
     <Content Include="Images\galileopin.jpg" />
     <Content Include="Images\galileopin2.jpg" />
+    <Content Include="Images\ifelse.jpg" />
     <Content Include="Images\iot.jpg" />
     <Content Include="Images\logoarduino.jpg" />
+    <Content Include="Images\loop.jpg" />
     <Content Include="Images\mega1.jpg" />
     <Content Include="Images\mega2.png" />
     <Content Include="Images\pilogo.jpg" />
     <Content Include="Images\rasp1.png" />
     <Content Include="Images\rasp2.png" />
     <Content Include="Images\rasp3.jpg" />
+    <Content Include="Images\swi.jpg" />
     <Content Include="Images\uno1.jpg" />
     <Content Include="Images\uno2.png" />
+    <Content Include="Images\while.jpg" />
     <Content Include="Images\yunlinux.jpg" />
     <Content Include="Images\yunpin.jpg" />
     <Content Include="Images\yunpin.png" />
@@ -257,6 +308,7 @@
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

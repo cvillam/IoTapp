@@ -15,7 +15,9 @@ namespace IoTapp
     {
         public ListaBoards()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            MessageBox.Show("Esta es una referencia básica de consulta rápida, algunos temas especializados pueden no encontrarse ");
+
         }
 
         private void GoBoard(object sender, SelectionChangedEventArgs e)

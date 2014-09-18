@@ -28,3 +28,9 @@ C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\P
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanMega.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanRasp.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\Iot.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\ListaTemas.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasTemas\PanEst.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasTemas\PanFun.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasTemas\PanLib.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasTemas\PanRaspbian.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasTemas\PanVar.g.cs
