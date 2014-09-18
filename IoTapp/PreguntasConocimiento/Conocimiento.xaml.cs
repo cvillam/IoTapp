@@ -7,11 +7,13 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.IO.IsolatedStorage;
 
 namespace IoTapp
 {
     public partial class Conocimiento : PhoneApplicationPage
     {
+        const string FILE_NAME = "texto.txt";     
         public string  respuesta = "0";
         public Conocimiento()
         {
@@ -50,7 +52,16 @@ namespace IoTapp
             else
             {
                 if (respuesta == "A") {
-                    MessageBox.Show("Correcto!, La variable int es muy usada");
+                    if (IsolatedStorageSettings.ApplicationSettings.Contains(FILE_NAME))
+                    {
+
+                        IsolatedStorageSettings.ApplicationSettings[FILE_NAME] = "2";
+                    }
+                    else {
+                        IsolatedStorageSettings.ApplicationSettings.Add(FILE_NAME, "2");
+
+                    }
+                    MessageBox.Show("Correcto!, Has avanzado al nivel 2 de 5");
                     NavigationService.Navigate(new Uri("/PreguntasConocimiento/Conocimiento2.xaml", UriKind.Relative));
                 }
                 else if (respuesta == "B") {

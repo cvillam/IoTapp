@@ -1,5 +1,5 @@
 ﻿<phone:PhoneApplicationPage
-    x:Class="IoTapp.PanoramasTemas.PanRaspbian"
+    x:Class="IoTapp.PreguntasConocimiento.Conocimiento3"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="White">
+    <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,23 +22,13 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Foreground="Red"  Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock FontSize="60"  Foreground="Blue" Text="Iniciar Raspberry" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <StackPanel>
-                
-         
-                <TextBlock Foreground="Black" Text="Al conectar la tarjeta Raspberry los usuarios y claves por defecto son: User: pi; Pass: raspberry" TextWrapping="Wrap" />
-            
-            <TextBlock Foreground="Black" TextWrapping="Wrap" Text="Para cambiar las configuraciones se debe ingresar: " Margin="0 0 0 0" />
-            <TextBlock Foreground="Red" TextWrapping="Wrap" Text="sudo raspi-config" Margin="0 0 0 0" />
-                <TextBlock Foreground="Black" TextWrapping="Wrap" Text="Ventana de configuraciones. Para desplazarse por el menú se debe conectar un teclado: " Margin="0 0 0 0" />
-                <Image Source="/Images/raspic.jpg" Height="418" />
-                <TextBlock Foreground="Black" TextWrapping="Wrap" Text="Comando audio en HDMI: amixer cset numid=3 2" Margin="0 0 0 0" />
-            </StackPanel>
+
         </Grid>
     </Grid>
 

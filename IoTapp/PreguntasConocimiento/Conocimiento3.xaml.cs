@@ -8,14 +8,13 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
-namespace IoTapp.PanoramasTemas
+namespace IoTapp.PreguntasConocimiento
 {
-    public partial class PanLib : PhoneApplicationPage
+    public partial class Conocimiento3 : PhoneApplicationPage
     {
-        public PanLib()
+        public Conocimiento3()
         {
             InitializeComponent();
-            MessageBox.Show("En esta sección solo se presentan las librerias más usadas en IoT,  como Ethernet, LiquidCrystal, EEPROM, Servo  y WiFi. ");
         }
     }
 }

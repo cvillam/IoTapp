@@ -34,3 +34,4 @@ C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\P
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasTemas\PanLib.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasTemas\PanRaspbian.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasTemas\PanVar.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PreguntasConocimiento\Conocimiento3.g.cs

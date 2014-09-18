@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,22 +22,22 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Foreground="Red"  Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock  Foreground="Black" Text="1" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel>
-                <TextBlock Text="Pregunta 1" />
-                <RadioButton Content="A" x:Name="RadioA" 
-                             GroupName="Radios"
-                             Checked="CambioRespuesta"/>
-                <RadioButton Content="B" x:Name="RadioB" 
-                             GroupName="Radios" 
+                <TextBlock  Foreground="Black" Text="Juan requiere tu ayuda para finalizar su proyecto. Quiere iniciar a transmitir datos a su PC a través del puerto serial. ¿Qué linea de código debe ejecutar en primer lugar?" TextWrapping="Wrap" />
+                <RadioButton Content="Serial.begin(9600);" x:Name="RadioA" 
+                             GroupName="Radios" Foreground="Black"
+                             Checked="CambioRespuesta" Background="Aqua"/>
+                <RadioButton Content="Serial.flush();" x:Name="RadioB" 
+                             GroupName="Radios"  Foreground="Black" Background="Aqua"
                              Checked="CambioRespuesta" />
-                <RadioButton Content="C" x:Name="RadioC" 
-                             GroupName="Radios" 
+                <RadioButton Content="Serial.begin();" x:Name="RadioC" 
+                             GroupName="Radios" Foreground="Black" Background="Aqua"
                              Checked="CambioRespuesta" />
                 <Button Content="Responder" Background="Green" 
                         Foreground="White" Click="EnviarRespuesta" />

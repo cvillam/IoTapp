@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,14 +22,14 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="2" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel>
-                <TextBlock Text="Pregunta 2" />
+                <TextBlock Foreground="Black" TextWrapping="Wrap" Text="Ahora Juan ya ha inciado correctamente la conexión, pero le falta enviar un dato entero almacenado en la variable 'x', y lo quiere hacer con un salto de linea, ¿Qué linea de código debe digitar? " />
                 <TextBox Height="250" x:Name="Answer" TextWrapping="Wrap"/>
                 <Button Content="Enviar Respuesta" Foreground="White"
                         Background="Green" Click="EnviarRes"/>

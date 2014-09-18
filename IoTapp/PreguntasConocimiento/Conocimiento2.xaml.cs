@@ -7,12 +7,13 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.IO.IsolatedStorage;
 
 namespace IoTapp
 {
     public partial class Conocimiento2 : PhoneApplicationPage
     {
-        
+        const string FILE_NAME = "texto.txt"; 
         public Conocimiento2()
         {
             InitializeComponent();
@@ -26,9 +27,21 @@ namespace IoTapp
                 MessageBox.Show("Ingresa la respuesta!");
 
             }
-            else if (r == "lcd.print(x);")
+            else if (r == "Serial.println(x);")
             {
-                MessageBox.Show("Correcto!");
+                
+                if (IsolatedStorageSettings.ApplicationSettings.Contains(FILE_NAME))
+                {
+
+                    IsolatedStorageSettings.ApplicationSettings[FILE_NAME] = "3";
+                }
+                else
+                {
+                    IsolatedStorageSettings.ApplicationSettings.Add(FILE_NAME, "3");
+
+                }
+                MessageBox.Show("Correcto!, Has avanzado al nivel 3 de 5");
+                NavigationService.Navigate(new Uri("/PreguntasConocimiento/Conocimiento3.xaml", UriKind.Relative));
             }
             else
             {

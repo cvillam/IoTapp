@@ -31,12 +31,24 @@
                 
             <phone:Pivot Foreground="Black">
                 <phone:PivotItem Header="IoT" Foreground="Black">
+                    <StackPanel>
+                        <TextBlock Foreground="Brown" Text="¿Qué es IoT?"/>
+                        <TextBlock Margin="0 10 0 30" TextWrapping="Wrap" Foreground="Black" Text="Es la tendencia a conectar todos nuestros dispositivos cotidianos, como un TV, Reproductor de música, Refrigerador, Cocina,  a internet.
+                                                              Lo que nos da ventajas de ubicuidad de la información y nuestros datos. En pcoas palabras es el futuro de la tecnología." />
+                        <Image Source="/Images/iot.jpg" />
+                    </StackPanel>
+                   
                   
                     
                 </phone:PivotItem>
                 <phone:PivotItem Header="App Info" Foreground="Black">
-          
-
+                    <StackPanel>
+                        
+                        <TextBlock Margin="0 10 0 30" TextWrapping="Wrap" Foreground="Black" Text="Las imágenes presentes en esta aplicación son de uso libre, y sus derechos originales pertenecen a Arduino.org y Raspberry Foundation. 
+                                  
+                                   La información suministrada ha sido extraida de los sitios oficiales." />
+                        
+                    </StackPanel>
                 </phone:PivotItem>
 
             </phone:Pivot>

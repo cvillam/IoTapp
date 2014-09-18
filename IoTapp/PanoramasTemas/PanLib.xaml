@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,13 +22,92 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Foreground="Black" Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Foreground="Blue"  Text="Librerías " Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <phone:Panorama>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="EEPROM" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text=" EEPROM.read(address);" Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="EEPROM.write(address, value); " Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Crimson" Text="Servomotores" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="servo.attach(pin); indica pin del servo" Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="servo.attached(); Verifica si el servo está conectado, si es True, si es False no se detectó servo." Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="servo.detach(); Desactivar servo" Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="servo.read(); Devuelve el angulo actual del servo " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="servo.write(angle); permite colocar el angulo deseado " Margin="0 0 0 15"/>
+                    </StackPanel>
 
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="LiquidCrystal - LCD Screen" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="LiquidCrystal(rs, rw, enable, d0, d1, d2, d3, d4, d5, d6, d7);" Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="lcd.begin(columnas, filas); " Margin="0 0 0 15"/>
+
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="lcd.clear(); limpia la pantalla" Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="lcd.setCursor(columna, fila); ubica el puntero en uan posicion especifica." Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="lcd.print(data); data puede ser un valor numerico, un caracter char o una cadena tipo string " Margin="0 0 0 15"/>
+
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Ethernet" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Ethernet.begin(mac, ip, dns, gateway, subnet); " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Ethernet.localIP(); obtiene direccion IP del momento. " Margin="0 0 0 15"/>
+
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="server.write(val); envia un dato (val) a todos los host conectados al mismo servidor " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="client.connect(ip, port); o client.connect(URL, port); permite conectarse al cliente con los datos de Dir IP y puerto dado." Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="client.write(val) ; Enviar datos al cliente " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="client.read(); recibir datos del cliente " Margin="0 0 0 15"/>
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Ethernet - Avanzado" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="EthernetUDP.begin(localPort); " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="UDP.beginPacket(remoteIP, remotePort);  " Margin="0 0 0 15"/>
+
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="UDP.available(); " Margin="0 0 0 15"/>
+                       
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="WiFi" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Esta libreria tiene un manejo muy similar a la de Ethernet, exceptuando la forma de conexión, donde se debe proporcionar la red y la clave respectiva. " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="WiFi.begin(ssid, pass);  " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="WiFi.disconnect(); " Margin="0 0 0 15"/>
+
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="WiFi.setDNS(dns_server1); " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="WiFi.localIP(); ; " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="WiFi.subnet(); " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="WiFiUDP.begin(port); " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="client.connect(ip, port); " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="client.write(data); " Margin="0 0 0 15"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="client.read(); " Margin="0 0 0 15"/>
+
+                      
+
+
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+
+            </phone:Panorama>
         </Grid>
     </Grid>
 

@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,12 +22,130 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Foreground="Blue"  Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Foreground="Black" Text="Funciones" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <phone:Panorama>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Para pines digitales" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Estas funciones sirven para indicar si un pin actua como entrada o salida digital, igualmente sirven para colocar un 1 o 0 Lógico en el pin determinado." Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Black" Text="pinMode(pin, mode);" />
+                        <TextBlock Foreground="Black" Text="digitalWrite(pin, value);" />
+                        <TextBlock Foreground="Black" Text="digitalRead(pin);"  Margin="0 0 0 20"/>
+                        <TextBlock Foreground="Black" Text="Donde pin es el numero del pin, mode es INPUT o OUTPUT, y value es HIGH o LOW. Digital read devuelve el valor (HIGH o LOW) del pin." TextWrapping="Wrap"/>
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+             
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Para pines de canal analógico" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Estas funciones sirven para leer sensores y otros dispositivos que tengan una salida de voltaje variable. Tambien sirven para activar actuadores analógicos mediante la escritura de un valor de voltaje parcial." Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Black" Text="analogRead(pin);" />
+                        <TextBlock Foreground="Black" Text="analogWrite(pin, value);" Margin="0 0 0 20" />
+                        
+                        <TextBlock Foreground="Black" Text="Donde pin es el numero del pin, value es un numero entero entre 1 y 1023, entre mayor sea este numero más voltaje será sacado por el pin dado, por ejemplo con 1023 saldrían 5V y con 1022 4.9V, excepto en Arduino Due, donde los valores varian entre 0 y 3.3V." TextWrapping="Wrap"/>
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Manipulación de tiempo" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Estas funciones permiten realizar retardos en la ejecución de una acción. La función millis() permite obtener el numero de milisegundos desde que el microcontrolador fue encendido." Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Black" Text="millis();" />
+                        <TextBlock Foreground="Black" Text="delay(ms);" Margin="0 0 0 20" />
+
+                        <TextBlock Foreground="Black" Text="Donde ms es el numero de milisegundos que se quiere pausar al ejecución." TextWrapping="Wrap"/>
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Funciones matemáticas" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Estas funciones permiten obtener resultados de operaciones matemáticas comunes." Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Black" Text="Potenciación: pow(base, exponente);" />
+                        <TextBlock Foreground="Black" Text="min(x,y); obtiene valor minimo entre X y Y"  />
+
+                        <TextBlock Foreground="Black" Text="max(x,y); obtiene valor mayor entre X y Y"  />
+                        <TextBlock Foreground="Black" Text="abs(x); retorna el valor absoluto de x"  />
+                        <TextBlock Foreground="Black" TextWrapping="Wrap" Text="sin(x); retorna el seno del numero x, debe estar en radianes"  />
+                        <TextBlock Foreground="Black" TextWrapping="Wrap" Text="cos(x); retorna el coseno del numero x, debe estar en radianes"  />
+                        <TextBlock Foreground="Black" TextWrapping="Wrap" Text="tan(x); retorna la tangente del numero x, debe estar en radianes"  />
+                        <TextBlock Foreground="Black" TextWrapping="Wrap" Text="random(min, max); retorna un numero aleatorio entre los valores maximos y minimos ingresados."  />
+                        <TextBlock Foreground="Black" Text="Raiz cuadrada: sqrt(x); x es el numero" Margin="0 0 0 20" />
+
+                        
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        <TextBlock Foreground="Crimson" Text="Comunicación serial" FontSize="25" Margin="0 0 0 20"/>
+                        <TextBlock TextWrapping="Wrap" Foreground="Black" Text="Estas funciones son basicas para enviar y recibir datos de otros dispsitivos, generalmente con un PC." Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Blue" Text="Nota: Para usar estas funciones es necesario etner libres (no usar) los pines 0 y 1 de las placas Arduino." TextWrapping="Wrap" />
+                        <TextBlock Foreground="Black" Text="Serial.begin(x); 
+                                        Para iniciar la comunicación, es obligatorio hacerlo. X es el baud rate, que puede ser cualquier valor, pero generalmente se usan los valores tipicos, por ejemplo 300, 600, 4800, 9600, 14400, 57600 o 115200. Entre mayor sea el baud rate la comunicación será más rapida, pero habrá más probabilidad de perdida de información. El valor más usado es 9600." TextWrapping="Wrap"  Margin="0 20 0 20" />
+
+                       
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+                        
+                        <TextBlock TextWrapping="Wrap" Foreground="Blue" Text="Serial.Available(); " Margin="0 0 0 15"/>
+                       
+                        <TextBlock Foreground="Black" Text="Esta funcion permite obtener el numero de bytes que han llegado al buffer del puerto serial. Si el avlor retornado es mayor que cero, evidencia que se ah recibido información." TextWrapping="Wrap"  Margin="0 20 0 20" />
+                        <TextBlock TextWrapping="Wrap" Foreground="Blue" Text="Serial.read(); " Margin="0 15 0 15"/>
+                        <TextBlock Foreground="Black" Text="Esta funcion permite obtener el valor del primer byte que se ha recibido." TextWrapping="Wrap"  Margin="0 20 0 20" />
+                        <TextBlock TextWrapping="Wrap" Foreground="Blue" Text="Serial.parseInt();  o Serial.parseFloat(); " Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Black" Text="Esta funcion permite obtener el valor del primer byte que se ha recibido, pero en forma de numero entero o decimal, si se ha recibido un acarcter no numerico retornan un cero." TextWrapping="Wrap"  Margin="0 20 0 20" />
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+                <phone:PanoramaItem>
+                    <StackPanel>
+
+                        <TextBlock TextWrapping="Wrap" Foreground="Blue" Text="Serial.Available(); " Margin="0 0 0 15"/>
+
+                        <TextBlock Foreground="Black" Text="Esta funcion permite obtener el numero de bytes que han llegado al buffer del puerto serial. Si el avlor retornado es mayor que cero, evidencia que se ah recibido información." TextWrapping="Wrap"  Margin="0 20 0 20" />
+                        <TextBlock TextWrapping="Wrap" Foreground="Blue" Text="Serial.read(); " Margin="0 15 0 15"/>
+                        <TextBlock Foreground="Black" Text="Esta funcion permite obtener el valor del primer byte que se ha recibido." TextWrapping="Wrap"  Margin="0 20 0 20" />
+                        <TextBlock TextWrapping="Wrap" Foreground="Blue" Text="Serial.parseInt();  o Serial.parseFloat(); " Margin="0 0 0 15"/>
+                        <TextBlock Foreground="Black" Text="Esta funcion permite obtener el valor del primer byte que se ha recibido, pero en forma de numero entero o decimal, si se ha recibido un acarcter no numerico retornan un cero." TextWrapping="Wrap"  Margin="0 20 0 20" />
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+
+                <phone:PanoramaItem>
+                    <StackPanel>
+
+                        <TextBlock TextWrapping="Wrap" Foreground="Blue" Text="Serial.print(x); o Serial.write(); " Margin="0 0 0 15"/>
+
+                        <TextBlock Foreground="Black" Text="Esta funcion permite enviar un valor numerico una cadena tipo string mediante el puerto serial. Si se quiere generar un salto de linea se debe usar Serial.println(x);" TextWrapping="Wrap"  Margin="0 20 0 20" />
+                        
+                    </StackPanel>
+
+
+                </phone:PanoramaItem>
+
+
+
+
+
+
+            </phone:Panorama>
 
         </Grid>
     </Grid>
