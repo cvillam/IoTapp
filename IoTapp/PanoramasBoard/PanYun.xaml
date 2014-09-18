@@ -54,22 +54,22 @@
             </phone:PanoramaItem>
             <phone:PanoramaItem Header="PinOut">
                 <StackPanel>
-                    <Image Source="/PanoramasBoard/yunpin.jpg" Margin="0 0 0 10" />
+                    <Image Source="/Images/yunpin.jpg" Margin="0 0 0 10" Stretch="Fill" />
 
                    
                    
-                    <TextBlock FontSize="35" Text="Pines" Foreground="Brown" />
+                    <TextBlock FontSize="25" Text="Pines" Foreground="Brown" />
                     <TextBlock Text="Canales analógicos: A0-A11 " />
                 </StackPanel>
               
               
             </phone:PanoramaItem>
             <phone:PanoramaItem>
-                <Image Source="/PanoramasBoard/yunpin3.jpg" Margin="0 0 0 10" />
+                <Image Source="/Images/yunpin3.jpg" Margin="0 0 0 10" Stretch="Fill"/>
 
             </phone:PanoramaItem>
             <phone:PanoramaItem>
-                <Image Source="/PanoramasBoard/yunpin2.jpg"  Margin="0 0 0 10"/>
+                <Image Source="/Images/yunpin2.jpg"  Margin="0 0 0 10" Stretch="Fill"/>
 
             </phone:PanoramaItem>
             <phone:PanoramaItem Header="Información">

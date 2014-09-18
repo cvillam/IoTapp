@@ -93,6 +93,27 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Iot.xaml.cs">
+      <DependentUpon>Iot.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasBoard\PanDue.xaml.cs">
+      <DependentUpon>PanDue.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasBoard\PanEthernet.xaml.cs">
+      <DependentUpon>PanEthernet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasBoard\PanGalileo.xaml.cs">
+      <DependentUpon>PanGalileo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasBoard\PanMega.xaml.cs">
+      <DependentUpon>PanMega.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasBoard\PanRasp.xaml.cs">
+      <DependentUpon>PanRasp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanoramasBoard\PanTre.xaml.cs">
+      <DependentUpon>PanTre.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PreguntasConocimiento\Conocimiento.xaml.cs">
       <DependentUpon>Conocimiento.xaml</DependentUpon>
     </Compile>
@@ -126,6 +147,34 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="Iot.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasBoard\PanDue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasBoard\PanEthernet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasBoard\PanGalileo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasBoard\PanMega.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasBoard\PanRasp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PanoramasBoard\PanTre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PreguntasConocimiento\Conocimiento.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -177,13 +226,30 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\due1.jpg" />
+    <Content Include="Images\due2.png" />
+    <Content Include="Images\eth1.jpg" />
+    <Content Include="Images\eth2.jpg" />
+    <Content Include="Images\galileopin.jpg" />
+    <Content Include="Images\galileopin2.jpg" />
+    <Content Include="Images\iot.jpg" />
+    <Content Include="Images\logoarduino.jpg" />
+    <Content Include="Images\mega1.jpg" />
+    <Content Include="Images\mega2.png" />
+    <Content Include="Images\pilogo.jpg" />
+    <Content Include="Images\rasp1.png" />
+    <Content Include="Images\rasp2.png" />
+    <Content Include="Images\rasp3.jpg" />
+    <Content Include="Images\uno1.jpg" />
+    <Content Include="Images\uno2.png" />
     <Content Include="Images\yunlinux.jpg" />
-    <Content Include="PanoramasBoard\yunpin.jpg" />
-    <Content Include="PanoramasBoard\yunpin.png" />
-    <Content Include="PanoramasBoard\yunpin2.jpg" />
-    <Content Include="PanoramasBoard\yunpin2.png" />
-    <Content Include="PanoramasBoard\yunpin3.jpg" />
-    <Content Include="PanoramasBoard\yunpin3.png" />
+    <Content Include="Images\yunpin.jpg" />
+    <Content Include="Images\yunpin.png" />
+    <Content Include="Images\yunpin2.jpg" />
+    <Content Include="Images\yunpin2.png" />
+    <Content Include="Images\yunpin3.jpg" />
+    <Content Include="Images\yunpin3.png" />
+    <Content Include="Images\trepin.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">

@@ -30,7 +30,7 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel>
                 <TextBlock Text="Pregunta 2" />
-                <TextBox Height="250" x:Name="Answer"/>
+                <TextBox Height="250" x:Name="Answer" TextWrapping="Wrap"/>
                 <Button Content="Enviar Respuesta" Foreground="White"
                         Background="Green" Click="EnviarRes"/>
                 

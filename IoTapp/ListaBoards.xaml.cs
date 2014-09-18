@@ -30,6 +30,24 @@ namespace IoTapp
                 case "UNO":
                     NavigationService.Navigate(new Uri("/PanoramasBoard/PanUNO.xaml", UriKind.Relative));
                     break;
+                case "Tre":
+                    NavigationService.Navigate(new Uri("/PanoramasBoard/PanTre.xaml", UriKind.Relative));
+                    break;
+                case "Galileo":
+                    NavigationService.Navigate(new Uri("/PanoramasBoard/PanGalileo.xaml", UriKind.Relative));
+                    break;
+                case "Ethernet":
+                    NavigationService.Navigate(new Uri("/PanoramasBoard/PanEthernet.xaml", UriKind.Relative));
+                    break;
+                case "Due":
+                    NavigationService.Navigate(new Uri("/PanoramasBoard/PanDue.xaml", UriKind.Relative));
+                    break;
+                case "Mega":
+                    NavigationService.Navigate(new Uri("/PanoramasBoard/PanMega.xaml", UriKind.Relative));
+                    break;
+                case "B Model":
+                    NavigationService.Navigate(new Uri("/PanoramasBoard/PanRasp.xaml", UriKind.Relative));
+                    break;
 
 
             }

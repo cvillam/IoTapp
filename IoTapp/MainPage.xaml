@@ -32,6 +32,7 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="100" />
+                <RowDefinition Height="300" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="1">
@@ -58,9 +59,16 @@
                         Foreground="White" 
                         Click="GoPage" 
                         x:Name="menu4"
+                        Margin="0 0 0 20"
                         />
                 
+                
             </StackPanel>
+            <StackPanel Grid.Row="2">
+                <Image Source="/Images/logoarduino.jpg" Height="100" Width="100" Grid.Row="2" />
+                <Image Source="/Images/pilogo.jpg" Height="100" Width="100" Grid.Row="2" />
+            </StackPanel>
+           
         </Grid>
 
         

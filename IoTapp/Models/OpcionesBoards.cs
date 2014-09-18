@@ -31,7 +31,7 @@ namespace IoTapp.Models
                     ob = new OpcionBoard() { Titulo = "Ethernet", Descripcion = "Arduino - Preparado para IoT" };
                     list.Add(ob);
 
-                    ob = new OpcionBoard() { Titulo = "Due", Descripcion = "Arduino - Preparado para IoT" };
+                    ob = new OpcionBoard() { Titulo = "Due", Descripcion = "Arduino" };
                     list.Add(ob);
 
                     ob = new OpcionBoard() { Titulo = "UNO", Descripcion = "Arduino" };

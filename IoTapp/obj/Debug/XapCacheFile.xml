@@ -1,18 +1,35 @@
-﻿<xapCache source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Debug\IoTapp_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="17/09/2014 1:41:03 p. m.">
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\IoTapp.dll" archivePath="IoTapp.dll" lastWriteTime="17/09/2014 1:41:01 p. m." />
+﻿<xapCache source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Debug\IoTapp_Debug_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="17/09/2014 10:30:30 p. m.">
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\IoTapp.dll" archivePath="IoTapp.dll" lastWriteTime="17/09/2014 10:30:28 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\due1.jpg" archivePath="Images\due1.jpg" lastWriteTime="17/09/2014 7:38:53 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\due2.png" archivePath="Images\due2.png" lastWriteTime="17/09/2014 7:38:58 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\eth1.jpg" archivePath="Images\eth1.jpg" lastWriteTime="17/09/2014 6:45:44 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\eth2.jpg" archivePath="Images\eth2.jpg" lastWriteTime="17/09/2014 6:49:57 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\galileopin.jpg" archivePath="Images\galileopin.jpg" lastWriteTime="17/09/2014 6:26:29 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\galileopin2.jpg" archivePath="Images\galileopin2.jpg" lastWriteTime="17/09/2014 6:25:50 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\iot.jpg" archivePath="Images\iot.jpg" lastWriteTime="17/09/2014 7:10:28 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\logoarduino.jpg" archivePath="Images\logoarduino.jpg" lastWriteTime="17/09/2014 7:10:02 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\mega1.jpg" archivePath="Images\mega1.jpg" lastWriteTime="17/09/2014 9:33:56 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\mega2.png" archivePath="Images\mega2.png" lastWriteTime="17/09/2014 9:34:01 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\pilogo.jpg" archivePath="Images\pilogo.jpg" lastWriteTime="17/09/2014 7:09:53 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\rasp1.png" archivePath="Images\rasp1.png" lastWriteTime="17/09/2014 9:58:04 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\rasp2.png" archivePath="Images\rasp2.png" lastWriteTime="17/09/2014 9:58:10 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\rasp3.jpg" archivePath="Images\rasp3.jpg" lastWriteTime="17/09/2014 9:58:16 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\uno1.jpg" archivePath="Images\uno1.jpg" lastWriteTime="17/09/2014 8:58:59 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\uno2.png" archivePath="Images\uno2.png" lastWriteTime="17/09/2014 8:59:08 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunlinux.jpg" archivePath="Images\yunlinux.jpg" lastWriteTime="15/09/2014 7:15:27 p. m." />
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\PanoramasBoard\yunpin.jpg" archivePath="PanoramasBoard\yunpin.jpg" lastWriteTime="17/09/2014 1:11:21 p. m." />
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\PanoramasBoard\yunpin.png" archivePath="PanoramasBoard\yunpin.png" lastWriteTime="17/09/2014 12:47:39 p. m." />
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\PanoramasBoard\yunpin2.jpg" archivePath="PanoramasBoard\yunpin2.jpg" lastWriteTime="17/09/2014 1:08:02 p. m." />
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\PanoramasBoard\yunpin2.png" archivePath="PanoramasBoard\yunpin2.png" lastWriteTime="17/09/2014 12:49:04 p. m." />
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\PanoramasBoard\yunpin3.jpg" archivePath="PanoramasBoard\yunpin3.jpg" lastWriteTime="17/09/2014 1:07:53 p. m." />
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\PanoramasBoard\yunpin3.png" archivePath="PanoramasBoard\yunpin3.png" lastWriteTime="17/09/2014 12:49:07 p. m." />
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="17/09/2014 1:08:17 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunpin.jpg" archivePath="Images\yunpin.jpg" lastWriteTime="17/09/2014 1:11:21 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunpin.png" archivePath="Images\yunpin.png" lastWriteTime="17/09/2014 12:47:39 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunpin2.jpg" archivePath="Images\yunpin2.jpg" lastWriteTime="17/09/2014 1:08:02 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunpin2.png" archivePath="Images\yunpin2.png" lastWriteTime="17/09/2014 12:49:04 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunpin3.jpg" archivePath="Images\yunpin3.jpg" lastWriteTime="17/09/2014 1:07:53 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunpin3.png" archivePath="Images\yunpin3.png" lastWriteTime="17/09/2014 12:49:07 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\trepin.jpg" archivePath="Images\trepin.jpg" lastWriteTime="17/09/2014 5:26:10 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="17/09/2014 5:01:54 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="15/09/2014 3:21:20 p. m." />

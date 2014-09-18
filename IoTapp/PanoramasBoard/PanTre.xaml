@@ -1,0 +1,82 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IoTapp.PanoramasBoard.PanTre"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <phone:Panorama Title="Tre-Arduino" Foreground="DarkGoldenrod" >
+
+            <phone:PanoramaItem Header="Características" Foreground="Black">
+                <StackPanel>
+                    <TextBlock FontSize="35"  Text="Microcontrolador " Foreground="Red" />
+                    <TextBlock Text="ATmega 32u4 Reloj 16 MHz 5 V" Margin="0 0 0 15"/>
+                    <TextBlock Text="Conectividad a Internet" Foreground="Brown" />
+                    <TextBlock Text="Ethernet incluido de serie. No WiFi" Margin="0 0 0 15" />
+                    <TextBlock Text="Pines digitales de entrada y salida" Foreground="Brown" />
+                    <TextBlock Text="14 pines con capacidad de 40 mA" Margin="0 0 0 15" />
+                    <TextBlock Text="Canales analógicos" Foreground="Brown" />
+                    <TextBlock Text="6 canales" Margin="0 0 0 15" />
+                    <TextBlock Text="Memoria EEPROM " Foreground="Brown" />
+                    <TextBlock Text="1 KB"  Margin="0 0 0 15"/>
+                    <TextBlock Text="Memoria SRAM y Flash" Foreground="Brown" />
+                    <TextBlock Text="2.5 KB (SRAM) y 32 KB (Flash)"  Margin="0 0 0 15"/>
+
+
+                </StackPanel>
+
+
+            </phone:PanoramaItem>
+            <phone:PanoramaItem>
+
+                <StackPanel>
+                    <TextBlock FontSize="35"  Text="Procesador Linux " Foreground="Red" />
+                    <TextBlock  Foreground="Black"  TextWrapping="Wrap" Text="Texas Instruments Sitara AM3359AZCZ100 ARM 1GHz" Margin="0 0 0 15" />
+                    <TextBlock Text="Memoria RAM " Foreground="Brown" />
+                    <TextBlock Foreground="Black"  Text="512 MB DDR3L" Margin="0 0 0 15" />
+                    <TextBlock Text="Video " Foreground="Brown" />
+                    <TextBlock Foreground="Black"  Text="Soporte para HDMI 1920x1080" Margin="0 0 0 15" />
+                    <TextBlock Text="Soporte para USB y SD " Foreground="Brown" />
+                    <TextBlock  Foreground="Black"  Text="MicroSD y 5 puertos USB 2.0" />
+
+                </StackPanel>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem Header="PinOut">
+                <StackPanel>
+                    <TextBlock Foreground="Black" Text="Esta tarjeta saldrá pronto, cuando el esquema de pines esté confirmado se actualizará esta sección" TextWrapping="Wrap" />
+                    <Image Source="/Images/trepin.jpg" Margin="0 0 0 10" Stretch="Fill" />
+
+
+
+                    
+                </StackPanel>
+
+
+            </phone:PanoramaItem>
+            
+            <phone:PanoramaItem Header="Información">
+                <StackPanel>
+                    <TextBlock Foreground="Black" 
+                               TextWrapping="Wrap"
+                          Text="Con el procesador Sitara se obtienen rendimientos hasta 100 veces superiores a lso obtenidos con las atrjetas básicas como UNO." FontSize="25"/>
+                    
+                </StackPanel>
+
+
+            </phone:PanoramaItem>
+
+
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

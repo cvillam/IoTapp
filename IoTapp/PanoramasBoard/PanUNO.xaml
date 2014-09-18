@@ -14,22 +14,66 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+    <Grid x:Name="LayoutRoot" Background="White">
+        <phone:Panorama Title="UNO-Arduino" Foreground="Black" >
 
-        <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
+            <phone:PanoramaItem Header="Características" >
+                <StackPanel>
+                    <TextBlock FontSize="35"  Text="Microcontrolador " Foreground="Red" />
+                    <TextBlock Text="ATmega 328  Reloj 16 MHz 5 V" Margin="0 0 0 15"/>
+                    <TextBlock Text="Conectividad a Internet" Foreground="Brown" />
+                    <TextBlock Text="No incluye conectividad a internet" Margin="0 0 0 15" />
+                    <TextBlock Text="Pines digitales de entrada y salida" Foreground="Brown" />
+                    <TextBlock TextWrapping="Wrap"  Text="14 pines con capacidad de 40 mA, 6 con soporte para PWM" Margin="0 0 0 15" />
+                    <TextBlock Text="Canales analógicos" Foreground="Brown" />
+                    <TextBlock Text="6 canales" Margin="0 0 0 15" />
+                    <TextBlock Text="Memoria EEPROM " Foreground="Brown" />
+                    <TextBlock Text="1 KB"  Margin="0 0 0 15"/>
+                    <TextBlock Text="Memoria SRAM y Flash" Foreground="Brown" />
+                    <TextBlock Text="2.0 KB (SRAM) y 32 KB (Flash)"  Margin="0 0 0 15"/>
 
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
 
-        </Grid>
+                </StackPanel>
+
+
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="PinOut">
+                <StackPanel>
+                    <Image Source="/Images/uno1.jpg" Margin="0 0 0 10" Stretch="Fill" Height="343" />
+
+
+
+                    <TextBlock FontSize="25" Text="Pines" Foreground="Brown" />
+                    <TextBlock Text="Canales analógicos: A0-A5 " />
+                </StackPanel>
+
+
+            </phone:PanoramaItem>
+            <phone:PanoramaItem>
+                <StackPanel>
+
+                    <Image Source="/Images/uno2.png"  Stretch="Fill" Height="447"/>
+                </StackPanel>
+
+
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="Información">
+                <StackPanel>
+                    <TextBlock Foreground="Brown" Text="Advertencias" FontSize="35"/>
+                    <TextBlock Margin="0 0 0 20" TextWrapping="Wrap"  Text="No sobrepasar los 800 mA en el total de puertos." />
+                    <TextBlock Margin="0 0 0 20" TextWrapping="Wrap"  Text="Seleccionar adecuadamente el numero de puerto serial antes de programar la tarjeta." />
+
+                </StackPanel>
+
+
+            </phone:PanoramaItem>
+
+
+        </phone:Panorama>
+
+
     </Grid>
 
 </phone:PhoneApplicationPage>

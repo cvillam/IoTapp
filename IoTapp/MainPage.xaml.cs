@@ -31,6 +31,11 @@ namespace IoTapp
 
                 NavigationService.Navigate(new Uri("/PreguntasConocimiento/Conocimiento.xaml", UriKind.Relative));
             }
+            else if (boton.Name == "menu4")
+            {
+
+                NavigationService.Navigate(new Uri("/Iot.xaml", UriKind.Relative));
+            }
         }
 
     }

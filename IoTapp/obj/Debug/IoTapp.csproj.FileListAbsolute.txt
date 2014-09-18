@@ -21,3 +21,10 @@ C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\P
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PreguntasConocimiento\Conocimiento2.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanUNO.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanYun.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanTre.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanGalileo.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanEthernet.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanDue.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanMega.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\PanoramasBoard\PanRasp.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Debug\Iot.g.cs
