@@ -33,8 +33,8 @@
                 <phone:PivotItem Header="IoT" Foreground="Black">
                     <StackPanel>
                         <TextBlock Foreground="Brown" Text="¿Qué es IoT?"/>
-                        <TextBlock Margin="0 10 0 30" TextWrapping="Wrap" Foreground="Black" Text="Es la tendencia a conectar todos nuestros dispositivos cotidianos, como un TV, Reproductor de música, Refrigerador, Cocina,  a internet.
-                                                              Lo que nos da ventajas de ubicuidad de la información y nuestros datos. En pcoas palabras es el futuro de la tecnología." />
+                        <TextBlock Margin="0 10 0 30" TextWrapping="Wrap" Foreground="Black" Text="Es la tendencia a conectar todos nuestros dispositivos cotidianos, como un TV, Reproductor de música, Refrigerador, Cocina, vehiculo,  a internet.
+                                                              Lo que nos da ventajas de ubicuidad de la información y nuestros datos. En pcoas palabras es el futuro de la tecnología. Por eso las grandes empresas del sector como Microsoft han lanzado programas de desarrollo en esta área." />
                         <Image Source="/Images/iot.jpg" />
                     </StackPanel>
                    

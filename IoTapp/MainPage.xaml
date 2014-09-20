@@ -54,13 +54,13 @@
                         Click="GoPage" 
                         x:Name="menu3"
                         />
-                <Button Content="Borrar progreso" 
+                <!--<Button Content="Borrar progreso" 
                         Background="Brown" 
                         Foreground="White" 
                         Click="GoPage" 
                         x:Name="menu5"
                         Margin="0 0 0 0"
-                        />
+                        />-->
                 <Button Content="¿Qué es IoT?" 
                         Background="YellowGreen" 
                         Foreground="White" 

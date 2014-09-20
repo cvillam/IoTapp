@@ -22,15 +22,15 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="2" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock  Foreground="Red" Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock  Foreground="Black" Text="2" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel>
                 <TextBlock Foreground="Black" TextWrapping="Wrap" Text="Ahora Juan ya ha inciado correctamente la conexión, pero le falta enviar un dato entero almacenado en la variable 'x', y lo quiere hacer con un salto de linea, ¿Qué linea de código debe digitar? " />
-                <TextBox Height="250" x:Name="Answer" TextWrapping="Wrap"/>
+                <TextBox Height="250" x:Name="Answer" TextWrapping="Wrap" Background="Beige"/>
                 <Button Content="Enviar Respuesta" Foreground="White"
                         Background="Green" Click="EnviarRes"/>
                 

@@ -158,6 +158,15 @@
     <Compile Include="PreguntasConocimiento\Conocimiento3.xaml.cs">
       <DependentUpon>Conocimiento3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento4.xaml.cs">
+      <DependentUpon>Conocimiento4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento5.xaml.cs">
+      <DependentUpon>Conocimiento5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Inicio.xaml.cs">
+      <DependentUpon>Inicio.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\AppResources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -247,6 +256,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PreguntasConocimiento\Conocimiento3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Inicio.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

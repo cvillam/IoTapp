@@ -32,12 +32,12 @@
                 <TextBlock  Foreground="Black" Text="Juan requiere tu ayuda para finalizar su proyecto. Quiere iniciar a transmitir datos a su PC a través del puerto serial. ¿Qué linea de código debe ejecutar en primer lugar?" TextWrapping="Wrap" />
                 <RadioButton Content="Serial.begin(9600);" x:Name="RadioA" 
                              GroupName="Radios" Foreground="Black"
-                             Checked="CambioRespuesta" Background="Aqua"/>
+                             Checked="CambioRespuesta" Background="DarkBlue"/>
                 <RadioButton Content="Serial.flush();" x:Name="RadioB" 
-                             GroupName="Radios"  Foreground="Black" Background="Aqua"
+                             GroupName="Radios" Foreground="Black" Background="DarkBlue"
                              Checked="CambioRespuesta" />
                 <RadioButton Content="Serial.begin();" x:Name="RadioC" 
-                             GroupName="Radios" Foreground="Black" Background="Aqua"
+                             GroupName="Radios" Foreground="Black" Background="DarkBlue"
                              Checked="CambioRespuesta" />
                 <Button Content="Responder" Background="Green" 
                         Foreground="White" Click="EnviarRespuesta" />

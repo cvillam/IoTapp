@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,13 +22,27 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Foreground="Red"  Text="IoTapp" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock  Foreground="Black" Text="3" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <StackPanel>
+                <TextBlock  Foreground="Black" Text="Se desea ejecutar una acción si se da al menos una de las dos siguientes condiciones. La primera, que la variable entera x tenga un valor menor o igual a 18, y la segunda condición, que la variable flotante y sea igual a 0.42. ¿Cómo se debería evaluar la condición?" TextWrapping="Wrap" />
+                <RadioButton Content="if(x=18 o y=0.42 ){...}" x:Name="RadioA" 
+                             GroupName="Radios" Foreground="Black"
+                             Checked="CambioRespuesta" Background="DarkBlue"/>
+                <RadioButton Content="if(x==0.42 ){...}" x:Name="RadioB" 
+                             GroupName="Radios" Foreground="Black" Background="DarkBlue"
+                             Checked="CambioRespuesta" />
+                <RadioButton Content="if(x==18 || y==0.42 ){...}" x:Name="RadioC" 
+                             GroupName="Radios" Foreground="Black" Background="DarkBlue"
+                             Checked="CambioRespuesta" />
+                <Button Content="Responder" Background="Green" 
+                        Foreground="White" Click="EnviarRespuesta" />
 
+            </StackPanel>
         </Grid>
     </Grid>
 
