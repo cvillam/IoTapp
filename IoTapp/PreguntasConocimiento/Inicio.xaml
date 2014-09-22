@@ -29,7 +29,8 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel>
-                <TextBlock Foreground="Black"  x:Name="TB" />
+                <TextBlock TextWrapping="Wrap" Foreground="Black"  x:Name="TB" FontSize="25" Margin="0 10 0 25"/>
+                <TextBlock TextWrapping="Wrap"   Foreground="Black"  x:Name="TB2" FontSize="25" Margin="0 0 0 20" />
                 <Button x:Name="Continuar" Click="Accion" Content="Continuar" Foreground="White" Background="Green" />
                 <Button  x:Name="Borrar"  Click="Accion" Content="Borrar progreso" Foreground="White" Background="Red" />
             </StackPanel>
