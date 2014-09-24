@@ -85,7 +85,7 @@ namespace IoTapp
                              IsolatedStorageSettings.ApplicationSettings.Add(FILE_NAME, "2");
 
                                 }
-                    MessageBox.Show("Correcto!, Has avanzado al nivel 2 de 5");
+                    MessageBox.Show("Correcto!, Has avanzado al nivel 2 de 20");
                     NavigationService.Navigate(new Uri("/PreguntasConocimiento/Conocimiento2.xaml", UriKind.Relative));
                 }
                 else {

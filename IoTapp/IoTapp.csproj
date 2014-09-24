@@ -137,6 +137,36 @@
     <Compile Include="PreguntasConocimiento\Conocimiento.xaml.cs">
       <DependentUpon>Conocimiento.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento10.xaml.cs">
+      <DependentUpon>Conocimiento10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento11.xaml.cs">
+      <DependentUpon>Conocimiento11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento12.xaml.cs">
+      <DependentUpon>Conocimiento12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento13.xaml.cs">
+      <DependentUpon>Conocimiento13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento14.xaml.cs">
+      <DependentUpon>Conocimiento14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento15.xaml.cs">
+      <DependentUpon>Conocimiento15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento16.xaml.cs">
+      <DependentUpon>Conocimiento16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento17.xaml.cs">
+      <DependentUpon>Conocimiento17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento18.xaml.cs">
+      <DependentUpon>Conocimiento18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento19.xaml.cs">
+      <DependentUpon>Conocimiento19.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PreguntasConocimiento\Conocimiento2.xaml.cs">
       <DependentUpon>Conocimiento2.xaml</DependentUpon>
     </Compile>
@@ -155,6 +185,9 @@
     <Compile Include="PanoramasBoard\PanYun.xaml.cs">
       <DependentUpon>PanYun.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento20.xaml.cs">
+      <DependentUpon>Conocimiento20.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PreguntasConocimiento\Conocimiento3.xaml.cs">
       <DependentUpon>Conocimiento3.xaml</DependentUpon>
     </Compile>
@@ -163,6 +196,18 @@
     </Compile>
     <Compile Include="PreguntasConocimiento\Conocimiento5.xaml.cs">
       <DependentUpon>Conocimiento5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento6.xaml.cs">
+      <DependentUpon>Conocimiento6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento7.xaml.cs">
+      <DependentUpon>Conocimiento7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento8.xaml.cs">
+      <DependentUpon>Conocimiento8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PreguntasConocimiento\Conocimiento9.xaml.cs">
+      <DependentUpon>Conocimiento9.xaml</DependentUpon>
     </Compile>
     <Compile Include="PreguntasConocimiento\Inicio.xaml.cs">
       <DependentUpon>Inicio.xaml</DependentUpon>
@@ -235,6 +280,46 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PreguntasConocimiento\Conocimiento2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -255,6 +340,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PreguntasConocimiento\Conocimiento3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -264,6 +353,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PreguntasConocimiento\Conocimiento5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PreguntasConocimiento\Conocimiento9.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -298,6 +403,7 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\checked.png" />
     <Content Include="Images\dow.jpg" />
     <Content Include="Images\due1.jpg" />
     <Content Include="Images\due2.png" />

@@ -14,6 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
+
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -29,14 +30,14 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel>
-                <TextBlock  Foreground="Black" Text="¿Qué función permite leer el valor analogico de un sensor?" TextWrapping="Wrap" />
-                <RadioButton Content="analogRead();" x:Name="RadioA" 
+                <TextBlock  x:Name="Question"  Foreground="Black" Text="" TextWrapping="Wrap" />
+                <RadioButton Content="" x:Name="RadioA" 
                              GroupName="Radios" Foreground="Black"
                              Checked="CambioRespuesta" Background="DarkBlue"/>
-                <RadioButton Content="analogWrite();" x:Name="RadioB" 
+                <RadioButton Content="" x:Name="RadioB" 
                              GroupName="Radios" Foreground="Black" Background="DarkBlue"
                              Checked="CambioRespuesta" />
-                <RadioButton Content="sensorRead();" x:Name="RadioC" 
+                <RadioButton Content="" x:Name="RadioC" 
                              GroupName="Radios" Foreground="Black" Background="DarkBlue"
                              Checked="CambioRespuesta" />
                 <Button Content="Responder" Background="Green" 
@@ -45,5 +46,4 @@
             </StackPanel>
         </Grid>
     </Grid>
-
 </phone:PhoneApplicationPage>

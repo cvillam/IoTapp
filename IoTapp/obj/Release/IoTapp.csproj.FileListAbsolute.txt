@@ -30,7 +30,6 @@ C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PanoramasBoard\PanYun.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento3.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento4.g.cs
-C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento5.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Inicio.g.cs
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\IoTapp.g.resources
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\IoTapp.Resources.AppResources.resources
@@ -38,3 +37,19 @@ C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\IoTapp.dll
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\IoTapp.pdb
 C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\XapCacheFile.xml
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento6.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento5.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento7.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento10.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento11.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento8.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento9.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento12.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento13.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento14.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento15.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento16.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento17.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento18.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento19.g.cs
+C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\PreguntasConocimiento\Conocimiento20.g.cs

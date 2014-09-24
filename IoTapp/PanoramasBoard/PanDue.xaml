@@ -16,7 +16,7 @@
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="White">
 
-        <phone:Panorama Title="Due-Arduino" Foreground="DodgerBlue" >
+        <phone:Panorama Title="Due-Arduino" Foreground="DarkBlue" >
 
             <phone:PanoramaItem Header="Características" >
                 <StackPanel>

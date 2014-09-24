@@ -19,6 +19,7 @@ namespace IoTapp.PreguntasConocimiento
         {
             InitializeComponent();
             Continuar.Visibility = Visibility.Collapsed;
+            Chulo.Visibility = Visibility.Collapsed;
             //verificacion del nivel actual
             var text2 = "";
             if (IsolatedStorageSettings.ApplicationSettings.Contains(FILE_NAME))
@@ -26,15 +27,17 @@ namespace IoTapp.PreguntasConocimiento
                 text2 = IsolatedStorageSettings.ApplicationSettings[FILE_NAME] as string;
                 if (text2 == "")
                 {
-                    TB.Text = "Él nivel actual es 1";
+                    TB.Text = "El nivel actual es 1";
 
                 }else if(text2=="C"){
-                    TB.Text = "Has superado todos los niveles";
+                    TB.Text = "Felicitaciones!! Has superado todos los niveles";
+                    Continuar.Visibility = Visibility.Collapsed;
+                    Chulo.Visibility = Visibility.Visible;
                 
                 
                 }
                 else {
-                    TB.Text = "Él nivel actual es "+text2;
+                    TB.Text = "El nivel actual es "+text2;
                 
                 }
 
@@ -42,7 +45,7 @@ namespace IoTapp.PreguntasConocimiento
             else
             {
                 text2 = "";
-                TB.Text = "Él nivel actual es 1";
+                TB.Text = "El nivel actual es 1";
             }
             int numintentos;
             //verificacion del numero de intentos restantes
@@ -54,9 +57,9 @@ namespace IoTapp.PreguntasConocimiento
                     TB2.Text = "No tienes más intentos, debes volver a iniciar";
 
                 }
-                else if(numintentos >=1 && numintentos <=5)
+                else if(numintentos >=1 && numintentos <=5 && text2!="C")
                 {
-                    TB2.Text = "Número de intentos restantes = "+numintentos;
+                    TB2.Text = "Número de intentos restantes: "+numintentos;
                     Continuar.Visibility = Visibility.Visible;
 
 
@@ -67,7 +70,7 @@ namespace IoTapp.PreguntasConocimiento
             else
             {
                 IsolatedStorageSettings.ApplicationSettings.Add("FILE_INTENTOS", 5);
-                TB2.Text = "Número de intentos restantes = 5";
+                TB2.Text = "Número de intentos restantes: 5";
                 Continuar.Visibility = Visibility.Visible;
                
             }
@@ -120,33 +123,43 @@ namespace IoTapp.PreguntasConocimiento
             else if (x.Name == "Borrar") { 
               
 
-                 if (IsolatedStorageSettings.ApplicationSettings.Contains(FILE_NAME))
-                                {
+                 
 
-                                     IsolatedStorageSettings.ApplicationSettings[FILE_NAME] = "";
-                                }
-                                  else
-                                 {
-                                   IsolatedStorageSettings.ApplicationSettings.Add(FILE_NAME, "");
 
-                                    }
-                 if (IsolatedStorageSettings.ApplicationSettings.Contains("FILE_INTENTOS"))
+                 MessageBoxResult consulta = MessageBox.Show("¿Confirmas la eliminación de los datos actuales?", "Eliminación", MessageBoxButton.OKCancel);
+                 if (consulta == MessageBoxResult.OK)
                  {
+                     if (IsolatedStorageSettings.ApplicationSettings.Contains(FILE_NAME))
+                     {
 
-                     IsolatedStorageSettings.ApplicationSettings["FILE_INTENTOS"] = 5;
+                         IsolatedStorageSettings.ApplicationSettings[FILE_NAME] = "";
+                     }
+                     else
+                     {
+                         IsolatedStorageSettings.ApplicationSettings.Add(FILE_NAME, "");
+
+                     }
+                     if (IsolatedStorageSettings.ApplicationSettings.Contains("FILE_INTENTOS"))
+                     {
+
+                         IsolatedStorageSettings.ApplicationSettings["FILE_INTENTOS"] = 5;
+                     }
+                     else
+                     {
+                         IsolatedStorageSettings.ApplicationSettings.Add("FILE_INTENTOS", 5);
+
+                     }
+                     MessageBox.Show("Has regresado al nivel 1 en Prueba tus conocimientos!. El número de intentos restantes es 5");
+                     TB.Text = "El nivel actual es 1";
+                     TB2.Text = "Número de intentos restantes: 5";
+                     Continuar.Visibility = Visibility.Visible;
+                     Chulo.Visibility = Visibility.Collapsed;
                  }
-                 else
+                 else if(consulta== MessageBoxResult.Cancel)
                  {
-                     IsolatedStorageSettings.ApplicationSettings.Add("FILE_INTENTOS", 5);
-
+                     NavigationService.Navigate(new Uri("/PreguntasConocimiento/Inicio.xaml", UriKind.Relative));
                  }
-
-                
-                              
-               MessageBox.Show("Has regresado al nivel 1 en Prueba tus conocimientos!. El número de intentos restantes es 5");
-               TB.Text = "Él nivel actual es 1";
-               TB2.Text = "Número de intentos restantes = 5";
-               Continuar.Visibility = Visibility.Visible;
+               
             }
 
         }

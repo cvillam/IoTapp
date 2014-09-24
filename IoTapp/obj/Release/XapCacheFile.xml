@@ -1,10 +1,11 @@
-﻿<xapCache source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Release\IoTapp_Release_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="22/09/2014 5:43:37 p. m.">
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\IoTapp.dll" archivePath="IoTapp.dll" lastWriteTime="22/09/2014 5:43:35 p. m." />
+﻿<xapCache source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Release\IoTapp_Release_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="24/09/2014 1:08:07 p. m.">
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\obj\Release\IoTapp.dll" archivePath="IoTapp.dll" lastWriteTime="24/09/2014 1:08:04 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\checked.png" archivePath="Images\checked.png" lastWriteTime="23/09/2014 12:23:09 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\dow.jpg" archivePath="Images\dow.jpg" lastWriteTime="18/09/2014 7:06:16 a. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\due1.jpg" archivePath="Images\due1.jpg" lastWriteTime="17/09/2014 7:38:53 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\due2.png" archivePath="Images\due2.png" lastWriteTime="17/09/2014 7:38:58 p. m." />
@@ -37,7 +38,7 @@
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunpin3.jpg" archivePath="Images\yunpin3.jpg" lastWriteTime="17/09/2014 1:07:53 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\yunpin3.png" archivePath="Images\yunpin3.png" lastWriteTime="17/09/2014 12:49:07 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Images\trepin.jpg" archivePath="Images\trepin.jpg" lastWriteTime="17/09/2014 5:26:10 p. m." />
-  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="18/09/2014 8:22:33 p. m." />
+  <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="23/09/2014 8:04:07 a. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="15/09/2014 3:21:15 p. m." />
   <file source="C:\Users\CesarPC\documents\visual studio 2012\Projects\IoTapp\IoTapp\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="18/09/2014 8:22:33 p. m." />
