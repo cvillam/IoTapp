@@ -1,15 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
-  <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{d4198e61-29f0-4b48-92d1-183f0711576a}" Title="IoTapp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="IoTapp author" Description="Sample description" Publisher="IoTapp" PublisherID="{c4ff18ad-e10d-4d55-966b-9b649107207b}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
-    <Capabilities>
-      <Capability Name="ID_CAP_NETWORKING" />
-      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
-      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
-      <Capability Name="ID_CAP_SENSORS" />
-      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
-    </Capabilities>
+  <DefaultLanguage xmlns="" code="es-CO" />
+  <Languages xmlns="">
+    <Language code="es" />
+    <Language code="es-AR" />
+    <Language code="es-VE" />
+    <Language code="es-BO" />
+    <Language code="es-CL" />
+    <Language code="es-CO" />
+    <Language code="es-CR" />
+    <Language code="es-DO" />
+    <Language code="es-EC" />
+    <Language code="es-SV" />
+    <Language code="es-GT" />
+    <Language code="es-HN" />
+    <Language code="es-NI" />
+    <Language code="es-PA" />
+    <Language code="es-PY" />
+    <Language code="es-PE" />
+    <Language code="es-PR" />
+    <Language code="es-ES" />
+    <Language code="es-US" />
+    <Language code="es-UY" />
+    <Language code="es-MX" />
+  </Languages>
+  <App xmlns="" ProductID="{d4198e61-29f0-4b48-92d1-183f0711576a}" Title="IoTapp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="César Villamil Perafán" Description="Internet de las cosas App" Publisher="IoTapp" PublisherID="{c4ff18ad-e10d-4d55-966b-9b649107207b}">
+    <IconPath IsRelative="true" IsResource="false">IotappLogo.png</IconPath>
+    <Capabilities></Capabilities>
     <Tasks>
       <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
     </Tasks>

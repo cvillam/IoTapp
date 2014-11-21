@@ -436,6 +436,7 @@
     <Content Include="Images\yunpin3.jpg" />
     <Content Include="Images\yunpin3.png" />
     <Content Include="Images\trepin.jpg" />
+    <Content Include="IotappLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
